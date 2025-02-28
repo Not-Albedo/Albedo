@@ -1,0 +1,154 @@
+#while True:
+   # number = int(input("Please type in a number, -1 to quit: "))
+from tokenize import endpats
+
+#    if number == -1:
+#        break
+
+  #print(number ** 2)
+
+#print("Thanks and bye!")
+
+#wrong way to write loop, Infinite loop
+
+#number = int(input("Please type in a number, -1 to quit: "))
+#while True:
+#    if number == -1:
+#        break
+
+#    print(number ** 2)
+
+#print("Thanks and bye!")
+
+#Password Loop
+
+#while True:
+ #   code = input("Please type in your PIN: ")
+  #  if code == "1234":
+   #     break
+    #print("Incorrect...try again")
+
+#print("Correct PIN entered!")
+
+
+#while True:
+  #  code = input("Type words or no to end the loop ")
+ #   if code == "no":
+   #     print("end")
+#
+  #      break
+ #   print("keep typing lol")
+
+#from math import sqrt
+#while True:
+   # number = int(input("please type a number"))
+   # if number < 0:
+   #     print("invalid number")
+
+  #  elif number > 0:
+ #       print(sqrt(number))#
+
+ #   elif number == 0:
+ #       print("ended")
+ #       break
+
+#while True:
+   # password = input("please type Password")
+   # if password != "krab":
+   #     print("try again")
+   # if password == "krab":
+  #      print("enter")
+ #       break
+
+
+#number = 5
+#print("Countdown!")
+#while True:
+ # print(number)
+ # number = number - 1
+  #if number > 0:
+ #   break
+
+#print("Now!")
+
+#password attempts
+
+#attempts = 0
+
+#while True:
+  #  code = input("please type in your Pin ")
+  #  attempts += 1
+
+   # if code == "1234":
+   #     success = True
+   #     break
+   # if attempts == 3:
+   #     success = False
+  #      break
+ #   print ("Incorrect")
+
+#if success:
+  #  print("correct Pin Entered")
+#else:
+ #  print("too many attempts...")
+
+#attempts = 0
+
+#while True:
+   # print("beginning of the while block:")
+   # code = input("Please type in your PIN: ")
+   # attempts += 1
+
+   # print("attempts:", attempts)
+   # print("condition1:", attempts == 3)
+   # if attempts == 3:
+   #     success = False
+   #     break
+
+  #  print("code:", code)
+  #  print("condition2:", code == "1234")
+  #  if code == "1234":
+   #     success = True
+  #      break
+
+ #   print("Incorrect...try again")
+#attempts = 0
+#correct_pin = "1234"
+
+#pin = input("PIN ")
+#attempts += 1
+
+#while pin != correct_pin:
+ #   print("wrong")
+ #   pin = input("enter your pin:")
+ #   attempts += 1
+
+#if attempts == 1:
+#    print("correct pin on first try")
+#else:
+ #   print(f"correct it took you {attempts}")
+
+
+#def next_leap_year(year):
+#    while True:
+#        year += 1
+#        if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#            return year
+#user_year = int(input ("enter a year: "))
+
+#next_leap = next_leap_year(user_year)
+#print(f"the next leap year after {user_year} is {next_leap}")
+
+#sentence = ""
+#word_copy = None
+
+#while True:
+ #   word = input("please type in a word story: ")
+ #   if word == "end":
+ #       break
+   # if word_copy == word:
+   #     break
+  #  word_copy = word
+
+ #   sentence += word + " "
+#print(sentence)
